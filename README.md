@@ -1,4 +1,5 @@
 # React + Vite
+I took a help from chatgpt to find error and taking help in other things liks css 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
