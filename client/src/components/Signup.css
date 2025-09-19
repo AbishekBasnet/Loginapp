@@ -1,0 +1,100 @@
+/* Overall page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #e0ffe0, #f0fff0); /* gradient background */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form container */
+form {
+  max-width: 500px; /* wider form */
+  width: 80%;
+  padding: 35px 40px;
+  background-color: #ffffff;
+  border: 2px solid #90ee90;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+form:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading */
+form h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2e8b57;
+  margin-bottom: 30px;
+}
+
+/* Labels */
+form label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2e8b57;
+  margin-bottom: 8px;
+}
+
+/* Inputs */
+form input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #90ee90;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: #2e8b57;
+  box-shadow: 0 0 8px rgba(46, 139, 87, 0.4);
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #90ee90, #2e8b57);
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: linear-gradient(135deg, #2e8b57, #1c6b43);
+  transform: scale(1.05);
+}
+
+/* Login link */
+form p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: #444;
+}
+
+form p a {
+  color: #2e8b57;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+form p a:hover {
+  color: #1c6b43;
+  text-decoration: underline;
+}
